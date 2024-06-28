@@ -1,0 +1,385 @@
+INFO - 2024-06-03 13:34:25 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:34:25 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:34:25 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:34:25 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+INFO - 2024-06-03 13:35:39 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:35:39 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:35:39 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:35:39 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+INFO - 2024-06-03 13:36:57 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:36:57 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:36:57 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:36:57 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:36:57 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+INFO - 2024-06-03 13:36:58 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:36:58 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:36:58 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:36:58 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:36:58 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+INFO - 2024-06-03 13:36:59 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:36:59 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:36:59 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:36:59 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:36:59 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+INFO - 2024-06-03 13:36:59 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:36:59 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:36:59 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:36:59 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:36:59 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+INFO - 2024-06-03 13:37:00 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:37:00 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:37:00 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:37:00 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:37:00 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+INFO - 2024-06-03 13:37:01 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:37:01 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:37:01 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:37:01 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:37:01 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+INFO - 2024-06-03 13:37:32 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:37:32 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:37:32 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:37:32 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:37:32 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+INFO - 2024-06-03 13:37:49 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:37:49 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:37:49 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:37:49 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:37:49 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+INFO - 2024-06-03 13:38:17 --> Headers: {"Host":{},"Connection":{},"Sec-Ch-Ua":{},"Sec-Ch-Ua-Mobile":{},"Sec-Ch-Ua-Platform":{},"Upgrade-Insecure-Requests":{},"User-Agent":{},"Accept":{},"Sec-Fetch-Site":{},"Sec-Fetch-Mode":{},"Sec-Fetch-User":{},"Sec-Fetch-Dest":{},"Accept-Encoding":{},"Accept-Language":{}}
+INFO - 2024-06-03 13:39:00 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:39:00 --> Iniciando autenticación...
+INFO - 2024-06-03 13:39:00 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:39:00 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:39:00 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:39:00 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:39:00 --> Autenticación fallida
+INFO - 2024-06-03 13:39:02 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:39:02 --> Iniciando autenticación...
+INFO - 2024-06-03 13:39:02 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:39:02 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:39:02 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:39:02 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:39:02 --> Autenticación fallida
+INFO - 2024-06-03 13:39:03 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:39:03 --> Iniciando autenticación...
+INFO - 2024-06-03 13:39:03 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:39:03 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:39:03 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:39:03 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:39:03 --> Autenticación fallida
+INFO - 2024-06-03 13:39:04 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:39:04 --> Iniciando autenticación...
+INFO - 2024-06-03 13:39:04 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:39:04 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:39:04 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:39:04 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:39:04 --> Autenticación fallida
+INFO - 2024-06-03 13:39:05 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:39:05 --> Iniciando autenticación...
+INFO - 2024-06-03 13:39:05 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:39:05 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:39:05 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:39:05 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:39:05 --> Autenticación fallida
+INFO - 2024-06-03 13:39:08 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:39:08 --> Iniciando autenticación...
+INFO - 2024-06-03 13:39:08 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:39:08 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:39:08 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:39:08 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:39:08 --> Autenticación fallida
+INFO - 2024-06-03 13:40:50 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:40:50 --> Iniciando autenticación...
+INFO - 2024-06-03 13:40:50 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:50 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:40:50 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:50 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:40:50 --> Autenticación fallida
+INFO - 2024-06-03 13:40:51 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:40:51 --> Iniciando autenticación...
+INFO - 2024-06-03 13:40:51 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:51 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:40:51 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:51 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:40:51 --> Autenticación fallida
+INFO - 2024-06-03 13:40:52 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:40:52 --> Iniciando autenticación...
+INFO - 2024-06-03 13:40:52 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:52 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:40:52 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:52 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:40:52 --> Autenticación fallida
+INFO - 2024-06-03 13:40:53 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:40:53 --> Iniciando autenticación...
+INFO - 2024-06-03 13:40:53 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:53 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:40:53 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:53 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:40:53 --> Autenticación fallida
+INFO - 2024-06-03 13:40:54 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:40:54 --> Iniciando autenticación...
+INFO - 2024-06-03 13:40:54 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:54 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:40:54 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:54 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:40:54 --> Autenticación fallida
+INFO - 2024-06-03 13:40:55 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:40:55 --> Iniciando autenticación...
+INFO - 2024-06-03 13:40:55 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:55 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:40:55 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:55 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:40:55 --> Autenticación fallida
+INFO - 2024-06-03 13:40:55 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:40:55 --> Iniciando autenticación...
+INFO - 2024-06-03 13:40:55 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:55 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:40:55 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:40:55 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:40:55 --> Autenticación fallida
+CRITICAL - 2024-06-03 13:50:26 --> ParseError: Unclosed '{' on line 8
+[Method: GET, Route: ventas]
+in APPPATH\Controllers\Ventas.php on line 231.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\almacen\\app\\Controllers\\Ventas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ventas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ventas')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Ventas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-03 13:51:39 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:51:39 --> Iniciando autenticación...
+INFO - 2024-06-03 13:51:39 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:51:39 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:51:39 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:51:39 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:51:39 --> Autenticación fallida
+INFO - 2024-06-03 13:52:36 --> Headers: {"Authorization":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+INFO - 2024-06-03 13:52:36 --> Iniciando autenticación...
+INFO - 2024-06-03 13:52:36 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:52:36 --> Expected Header: Basic YnJheWFuOjEyMjM=
+INFO - 2024-06-03 13:52:36 --> Auth Header: Basic WW5KaGVXRnVPakV5TWpNPTpZbkpoZVdGdU9qRXlNak09Cg==
+INFO - 2024-06-03 13:52:36 --> Expected Header: Basic YnJheWFuIHZlbGE6MTExMQ==
+ERROR - 2024-06-03 13:52:36 --> Autenticación fallida
+CRITICAL - 2024-06-03 14:38:00 --> ParseError: Unmatched '}'
+[Method: GET, Route: rol]
+in APPPATH\Controllers\Rol.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\almacen\\app\\Controllers\\Rol.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Rol')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Rol')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Rol', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 14:38:30 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+[Method: GET, Route: rol]
+in APPPATH\Controllers\Rol.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\almacen\\app\\Controllers\\Rol.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Rol')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Rol')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Rol', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 14:38:49 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+[Method: GET, Route: rol]
+in APPPATH\Controllers\Rol.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\almacen\\app\\Controllers\\Rol.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Rol')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Rol')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Rol', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 14:38:51 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+[Method: GET, Route: rol]
+in APPPATH\Controllers\Rol.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\almacen\\app\\Controllers\\Rol.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Rol')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Rol')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Rol', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-03 14:51:41 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`almacen`.`usuario`, CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`idrol`) REFERENCES `rol` (`idrol`) ON UPDATE CASCADE) in C:\xampp\htdocs\almacen\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\almacen\system\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `ro...', 0)
+#1 C:\xampp\htdocs\almacen\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ro...')
+#2 C:\xampp\htdocs\almacen\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ro...')
+#3 C:\xampp\htdocs\almacen\system\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ro...', Array, false)
+#4 C:\xampp\htdocs\almacen\system\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\almacen\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\almacen\app\Controllers\Rol.php(143): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\almacen\system\CodeIgniter.php(933): App\Controllers\Rol->delete('1')
+#8 C:\xampp\htdocs\almacen\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rol))
+#9 C:\xampp\htdocs\almacen\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\almacen\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\almacen\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\almacen\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-03 14:51:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`almacen`.`usuario`, CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`idrol`) REFERENCES `rol` (`idrol`) ON UPDATE CASCADE)
+[Method: DELETE, Route: rol/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rol`
+WHERE `idrol` IN :idrol:', [...], false)
+ 2 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Rol.php(143): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rol->delete('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rol))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 14:51:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`almacen`.`usuario`, CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`idrol`) REFERENCES `rol` (`idrol`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `rol`
+WHERE `idrol` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `rol`
+WHERE `idrol` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rol`
+WHERE `idrol` IN :idrol:', [...], false)
+ 4 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Rol.php(143): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rol->delete('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rol))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 14:51:41 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`almacen`.`usuario`, CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`idrol`) REFERENCES `rol` (`idrol`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `rol`
+WHERE `idrol` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `rol`
+WHERE `idrol` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `rol`
+WHERE `idrol` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rol`
+WHERE `idrol` IN :idrol:', [...], false)
+ 5 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Rol.php(143): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rol->delete('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rol))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 14:54:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Deletes are not allowed unless they contain a "where" or "like" clause.
+[Method: DELETE, Route: rol/0]
+in SYSTEMPATH\Database\BaseBuilder.php on line 2794.
+ 1 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete('0', false)
+ 3 APPPATH\Controllers\Rol.php(143): CodeIgniter\BaseModel->delete('0')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rol->delete('0')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rol))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 15:19:11 --> ParseError: Unclosed '{' on line 9
+[Method: DELETE, Route: categorias]
+in APPPATH\Controllers\Categorias.php on line 164.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('categorias', 'DELETE')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('categorias')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('categorias')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 15:19:19 --> ParseError: Unclosed '{' on line 9
+[Method: GET, Route: categorias]
+in APPPATH\Controllers\Categorias.php on line 164.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\almacen\\app\\Controllers\\Categorias.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categorias')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categorias')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categorias', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 15:19:33 --> ParseError: Unclosed '{' on line 9
+[Method: GET, Route: categorias]
+in APPPATH\Controllers\Categorias.php on line 164.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\almacen\\app\\Controllers\\Categorias.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categorias')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categorias')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categorias', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 15:25:10 --> ErrorException: Undefined variable $rol
+[Method: GET, Route: categorias/0]
+in APPPATH\Controllers\Categorias.php on line 44.
+ 1 APPPATH\Controllers\Categorias.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rol', 'C:\\xampp\\htdocs\\almacen\\app\\Controllers\\Categorias.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->show('0')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 15:25:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Deletes are not allowed unless they contain a "where" or "like" clause.
+[Method: DELETE, Route: categorias/0]
+in SYSTEMPATH\Database\BaseBuilder.php on line 2794.
+ 1 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete('0', false)
+ 3 APPPATH\Controllers\Categorias.php(150): CodeIgniter\BaseModel->delete('0')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->delete('0')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 15:25:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Deletes are not allowed unless they contain a "where" or "like" clause.
+[Method: DELETE, Route: categorias/0]
+in SYSTEMPATH\Database\BaseBuilder.php on line 2794.
+ 1 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete('0', false)
+ 3 APPPATH\Controllers\Categorias.php(150): CodeIgniter\BaseModel->delete('0')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->delete('0')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 18:04:40 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: proveedor]
+in APPPATH\Controllers\Proveedor.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\almacen\\app\\Controllers\\Proveedor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Proveedor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Proveedor')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Proveedor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 18:04:47 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: proveedor]
+in APPPATH\Controllers\Proveedor.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\almacen\\app\\Controllers\\Proveedor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Proveedor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Proveedor')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Proveedor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
