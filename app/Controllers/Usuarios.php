@@ -1,80 +1,168 @@
 <?php
 
 namespace App\Controllers;
+
 use CodeIgniter\Controller;
 use App\Models\UsuariosModel;
-class Usuarios extends Controller {
 
+class Usuarios extends Controller {
 
     public function index(){
         $model = new UsuariosModel();
-        // Busca todos los usuarios sin filtrar por el campo 'estado'
         $usuarios = $model->findAll();
-    
-        if(empty($usuarios)){
-            $respuesta = array(
-                "error" => true,
-                "mensaje" => 'No hay elementos'
-            );
-            return $this->response->setStatusCode(404)
-                                  ->setJSON($respuesta);
+        
+        if (!empty($usuarios)) {
+            $data = [
+                "Status" => 200, 
+                "Total de usuarios" => count($usuarios),
+                "Detalles" => $usuarios
+            ];
         } else {
-            return $this->response->setStatusCode(200)
-                                  ->setJSON($usuarios);
+            $data = [
+                "Status" => 404,
+                "Total de usuarios" => 0,
+                "Detalles" => "No hay usuarios"
+            ];
         }
+        
+        return $this->response->setStatusCode(200)->setJSON($data);
     }
-    
+      
+    public function show($id){
+        $model = new UsuariosModel();
+        $usuario = $model->find($id);
+        
+        if (!empty($usuario)) {
+            $data = [
+                "Status" => 200, 
+                "Detalles" => $usuario
+            ];
+        } else {
+            $data = [
+                "Status" => 404,
+                "Detalles" => "El usuario no existe"
+            ];
+        }
+        
+        return $this->response->setStatusCode(200)->setJSON($data);
+    }
 
     public function create(){
         $request = \Config\Services::request();
         $validation = \Config\Services::validation();
-        $datos = array(
+
+        $datos = [
+           
+            "nombreusuario" => $request->getVar("nombreusuario"),
+            "contraseña" => $request->getVar("contraseña"),
             "correo" => $request->getVar("correo"),
-            "dnitrabajador" => $request->getVar("dnitrabajador"), // Corrected variable name
+            "dnitrabajador" => $request->getVar("dnitrabajador"),
             "idrol" => $request->getVar("idrol")
-        );
-        if(!empty($datos)){
-           $validation->setRules([
-            "correo" => 'required|string|max_length[255]',
-            "dnitrabajador" => 'required|string|max_length[255]', // Corrected variable name
-            "idrol" => 'required|string|max_length[255]'
-           ]);
-           $validation->withRequest($this->request)->run();
-           if($validation->getErrors()){
-            $error = $validation->getErrors();
-            $data = array("Status" => 404, "Detalle" => $error);
-            return json_encode($data, true);
-           }
-           else{
-            $nombreusuario = crypt($datos["dnitrabajador"].$datos["correo"].$datos["idrol"], '$2a$07$dfhdfrexfhgdfhdferttgsad$');
-            $contraseña = crypt($datos["correo"].$datos["dnitrabajador"].$datos["idrol"], '$2a$07$dfhdfrexfhgdfhdferttgsad$');
-            $datos = array(
-                "dnitrabajador" => $datos["dnitrabajador"], // Corrected variable name
-                "correo" => $datos["correo"],
-                "idrol" => $datos["idrol"],
-                "nombreusuario" => str_replace('$','a',$nombreusuario),
-                "contraseña" => str_replace('$','o',$contraseña)
-            );
-            $model = new UsuariosModel();
-            $usuario = $model->insert($datos);
-            $data = array(
-                "Status" => 200,
-                "Detalle" => "Registro Ok, guarde sus credenciales",
-                "credenciales" => array(
-                    "nombreusuario" => str_replace('$','a',$nombreusuario),
-                    "contraseña" => str_replace('$','o',$contraseña)
-                )
-            );
-            return json_encode($data, true);
-        }
-    }
-        else{
-            $data = array(
+        ];
+
+        if (!empty($datos)) {
+            $validation->setRules([
+               
+                "nombreusuario" => 'required|string|max_length[255]',
+                "contraseña" => 'required|string|max_length[255]',
+                "correo" => 'required|string|valid_email|max_length[255]',
+                "dnitrabajador" => 'required|string|max_length[255]',
+                "idrol" => 'required|integer'
+            ]);
+            $validation->withRequest($this->request)->run();
+
+            if ($validation->getErrors()) {
+                $errors = $validation->getErrors();
+                $data = [
+                    "Status" => 404, 
+                    "Detalles" => $errors
+                ];
+            } else {
+                $model = new UsuariosModel();
+                $model->insert($datos);
+                $data = [
+                    "Status" => 200,
+                    "Detalles" => "Usuario creado exitosamente"
+                ];
+            }
+        } else {
+            $data = [
                 "Status" => 400,
-                "Detalle" => "Registro con errores"
-            );
-            return json_encode($data, true);
+                "Detalles" => "Datos del usuario vacíos"
+            ];
         }
+                    
+        return $this->response->setStatusCode(200)->setJSON($data);
+    }
+
+    public function update($id){
+        $request = \Config\Services::request();
+        $validation = \Config\Services::validation();
+        $datos = $this->request->getRawInput();
+                  
+        if (!empty($datos)) {
+            $validation->setRules([
+               
+                "nombreusuario" => 'required|string|max_length[255]',
+                "contraseña" => 'required|string|max_length[255]',
+                "correo" => 'required|string|valid_email|max_length[255]',
+                "dnitrabajador" => 'required|string|max_length[255]',
+                "idrol" => 'required|integer'
+            ]);
+
+            $validation->withRequest($this->request)->run();
+
+            if ($validation->getErrors()) {
+                $errors = $validation->getErrors();
+                $data = [
+                    "Status" => 404, 
+                    "Detalles" => $errors
+                ];
+            } else {
+                $model = new UsuariosModel();
+                $usuario = $model->find($id);
+                           
+                if (is_null($usuario)) {
+                    $data = [
+                        "Status" => 404,
+                        "Detalles" => "El usuario no existe"
+                    ];
+                } else {
+                    $model->update($id, $datos);
+                    $data = [
+                        "Status" => 200,
+                        "Detalles" => "Datos del usuario actualizados"
+                    ];
+                }
+            }
+        } else {
+            $data = [
+                "Status" => 400,
+                "Detalles" => "Datos del usuario vacíos"
+            ];
+        }
+                        
+        return $this->response->setStatusCode(200)->setJSON($data);   
+    }
+
+    public function delete($id){
+        $model = new UsuariosModel();
+        $usuario = $model->find($id);
+        
+        if (!empty($usuario)) {
+            $model->delete($id);
+            $data = [
+                "Status" => 200, 
+                "Detalles" => "Usuario eliminado exitosamente"
+            ];
+        } else {
+            $data = [
+                "Status" => 404,
+                "Detalles" => "El usuario no existe"
+            ];
+        }
+        
+        return $this->response->setStatusCode(200)->setJSON($data);
     }
 }
-
+?>
