@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
@@ -11,41 +12,33 @@ class Productos extends Controller
         $model = new ProductoModel();
         $productos = $model->getProductoWithCategoria();
 
-        if (!empty($productos)) {
-            $data = array(
-                "Status" => 200,
-                "Total de productos" => count($productos),
-                "Detalles" => $productos
-            );
-        } else {
-            $data = array(
-                "Status" => 200,
-                "Total de productos" => 0,
-                "Detalles" => "No hay productos -_-"
-            );
-        }
+        $data = [
+            "status" => 200,
+            "total_productos" => count($productos),
+            "detalles" => $productos ?: "No hay productos disponibles"
+        ];
         
-        return json_encode($data, true);
+        return $this->response->setJSON($data);
     }
 
     public function show($id)
     {
         $model = new ProductoModel();
         $producto = $model->getProductoByIdWithCategoria($id);
-        
-        if (!empty($producto)) {
-            $data = array(
-                "Status" => 200,
-                "Detalles" => $producto
-            );
+
+        if ($producto) {
+            $data = [
+                "status" => 200,
+                "detalles" => $producto
+            ];
         } else {
-            $data = array(
-                "Status" => 404,
-                "Detalles" => "No hay producto o tu código está mal -_-"
-            );
+            $data = [
+                "status" => 404,
+                "detalles" => "Producto no encontrado"
+            ];
         }
         
-        return json_encode($data, true);
+        return $this->response->setJSON($data);
     }
 
     public function create()
@@ -53,44 +46,40 @@ class Productos extends Controller
         $request = \Config\Services::request();
         $validation = \Config\Services::validation();
         
-        $datos = array(
+        $datos = [
             "nombreproducto" => $request->getVar("nombreproducto"),
             "precioventa" => $request->getVar("precioventa"),
             "ubicacionproducto" => $request->getVar("ubicacionproducto"),
             "codigobarras" => $request->getVar("codigobarras"),
             "idcategoria" => $request->getVar("idcategoria"),
             "idproveedor" => $request->getVar("idproveedor")
-        );
+        ];
 
-        if (!empty($datos)) {
-            $validation->setRules([
-                "nombreproducto" => 'required|string|max_length[255]',
-                "precioventa" => 'required|string|max_length[255]',
-                "ubicacionproducto" => 'required|string|max_length[255]',
-                "codigobarras" => 'required|string|max_length[255]',
-                "idcategoria" => 'required|integer',
-                "idproveedor" => 'required|integer'
-            ]);
+        $validation->setRules([
+            "nombreproducto" => 'required|string|max_length[255]',
+            "precioventa" => 'required|string|max_length[255]',
+            "ubicacionproducto" => 'required|string|max_length[255]',
+            "codigobarras" => 'required|string|max_length[255]',
+            "idcategoria" => 'required|integer',
+            "idproveedor" => 'required|integer'
+        ]);
 
-            if ($validation->withRequest($request)->run() === false) {
-                $errors = $validation->getErrors();
-                $data = array("Status" => 404, "Detalle" => $errors);
-            } else {
-                $model = new ProductoModel();
-                $model->insert($datos);
-                $data = array(
-                    "Status" => 200,
-                    "Detalle" => "Producto creado exitosamente"
-                );
-            }
+        if ($validation->withRequest($request)->run() === false) {
+            $errors = $validation->getErrors();
+            $data = [
+                "status" => 400,
+                "detalle" => $errors
+            ];
         } else {
-            $data = array(
-                "Status" => 404,
-                "Detalle" => "Producto con errores"
-            );
+            $model = new ProductoModel();
+            $model->insert($datos);
+            $data = [
+                "status" => 201,
+                "detalle" => "Producto creado exitosamente"
+            ];
         }
         
-        return json_encode($data, true);
+        return $this->response->setJSON($data);
     }
 
     public function update($id)
@@ -100,44 +89,40 @@ class Productos extends Controller
         
         $datos = $request->getRawInput();
 
-        if (!empty($datos)) {
-            $validation->setRules([
-                "nombreproducto" => 'required|string|max_length[255]',
-                "precioventa" => 'required|string|max_length[255]',
-                "ubicacionproducto" => 'required|string|max_length[255]',
-                "codigobarras" => 'required|string|max_length[255]',
-                "idcategoria" => 'required|integer',
-                "idproveedor" => 'required|integer'
-            ]);
+        $validation->setRules([
+            "nombreproducto" => 'required|string|max_length[255]',
+            "precioventa" => 'required|string|max_length[255]',
+            "ubicacionproducto" => 'required|string|max_length[255]',
+            "codigobarras" => 'required|string|max_length[255]',
+            "idcategoria" => 'required|integer',
+            "idproveedor" => 'required|integer'
+        ]);
 
-            if ($validation->withRequest($request)->run() === false) {
-                $errors = $validation->getErrors();
-                $data = array("Status" => 404, "Detalle" => $errors);
-            } else {
-                $model = new ProductoModel();
-                $producto = $model->find($id);
-
-                if (is_null($producto)) {
-                    $data = array(
-                        "Status" => 404,
-                        "Detalles" => "Producto no existe"
-                    );
-                } else {
-                    $model->update($id, $datos);
-                    $data = array(
-                        "Status" => 200,
-                        "Detalle" => "Datos actualizados"
-                    );
-                }
-            }
+        if ($validation->withRequest($request)->run() === false) {
+            $errors = $validation->getErrors();
+            $data = [
+                "status" => 400,
+                "detalle" => $errors
+            ];
         } else {
-            $data = array(
-                "Status" => 404,
-                "Detalle" => "Producto con errores"
-            );
+            $model = new ProductoModel();
+            $producto = $model->find($id);
+
+            if (is_null($producto)) {
+                $data = [
+                    "status" => 404,
+                    "detalle" => "Producto no encontrado"
+                ];
+            } else {
+                $model->update($id, $datos);
+                $data = [
+                    "status" => 200,
+                    "detalle" => "Datos actualizados"
+                ];
+            }
         }
 
-        return json_encode($data, true);
+        return $this->response->setJSON($data);
     }
 
     public function delete($id)
@@ -147,17 +132,17 @@ class Productos extends Controller
 
         if (!empty($producto)) {
             $model->delete($id);
-            $data = array(
-                "Status" => 200,
-                "Detalles" => "Se ha eliminado el producto"
-            );
+            $data = [
+                "status" => 200,
+                "detalle" => "Producto eliminado correctamente"
+            ];
         } else {
-            $data = array(
-                "Status" => 404,
-                "Detalles" => "No hay producto -_-"
-            );
+            $data = [
+                "status" => 404,
+                "detalle" => "Producto no encontrado"
+            ];
         }
 
-        return json_encode($data, true);
+        return $this->response->setJSON($data);
     }
 }
